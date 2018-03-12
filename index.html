@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <header><h1>Crystal Collector</h1></header>
 <main>
     <div><h2>Goal</h2></div>
-    <div><h3>Wins:</h3></div>
-    <div><h3>Losses:</h3></div>
-    <div><button>Button 1</button>
-    <button>Button 2</button>
-    <button>Button 3</button>
-    <button>Button 4</button></div>
+    <div>Wins:<div id="win-count"></div></div>
+    <div>Losses:<div id="loss-count"></div></div>
+    <div><button id = "button-one">Button 1</button>
     <p>Your total score:</p>
-    <div><p>Score:</p></div>
+    <div><p id = "score"></p></div>
 </main> 
 <script src="assets/javascript/game.js"></script>
 </body>
