@@ -30,14 +30,12 @@ $('.selector').click(function() {
         wins++;
         $("#win-count").text(wins);
         $('<div id="win-loss-banner">You Win!</div>').appendTo($("body"));
-        console.log('you win!');
         gameEnd();
 
     } else if (score > goal) { 
     losses++;
     $("#loss-count").text(losses);
     $('<div id="win-loss-banner">You loose!</div>').appendTo($("body"));
-    console.log("you loose!");
     gameEnd();
     }
   })
